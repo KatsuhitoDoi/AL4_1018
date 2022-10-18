@@ -139,8 +139,8 @@ void GameScene::Draw()
 	/// </summary>
 
 	// 描画
-	//sprite1->Draw();
-	//sprite2->Draw();
+	sprite1->Draw();
+	sprite2->Draw();
 
 	// デバッグテキストの描画
 	debugText.DrawAll(cmdList);
